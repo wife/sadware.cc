@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+html * {
+  box-sizing: border-box;
+  font-family: 'Pacifico', sans-serif;
+  cursor: url(http://i.imgur.com/IepP2.jpg), auto;
+}
+
+:root {
+  --1: #343838;
+  --2: #005F6B;
+  --3: #008C9E;
+  --4: #00B4CC;
+  --5: #00DFFC;
+  --6: #2DF5F9;
+  --7: #5AFDFA;
+  --8: #7CF7F5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/* hehe xd call me dexter todd hehe xd */
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-bottom: 2em;
+  background: #111;
+}
+
+.rainbowuwu {
+  --x: 0.025em;
+  --x1: calc(var(--x) * 1);
+  --x2: calc(var(--x) * 2);
+  --x3: calc(var(--x) * 3);
+  --x4: calc(var(--x) * 4);
+  --x5: calc(var(--x) * 5);
+  --x6: calc(var(--x) * 6);
+  --x7: calc(var(--x) * 7);
+  --x8: calc(var(--x) * 8);
+  --y: 0.025em;
+  --y1: calc(var(--y) * 1);
+  --y2: calc(var(--y) * 2);
+  --y3: calc(var(--y) * 3);
+  --y4: calc(var(--y) * 4);
+  --y5: calc(var(--y) * 5);
+  --y6: calc(var(--y) * 6);
+  --y7: calc(var(--y) * 7);
+  --y8: calc(var(--y) * 8);
+  font-size: 4em;
+  padding: 1em;
+  text-align: center;
+  line-height: 1.12;
+  color: white;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  animation: rainbowuwu 0.75s infinite;
+}
+
+@media (min-width: 850px) {
+  .rainbowuwu {
+    font-size: 6em;
+  }
+}
+
+@media (min-width: 1400px) {
+  .rainbowuwu {
+    font-size: 10em;
+  }
+}
+
+@keyframes rainbowuwu {
+  0%, 100% {
+    text-shadow:
+      var(--x1) var(--y1) 0 var(--1),
+      var(--x2) var(--y2) 0 var(--2),
+      var(--x3) var(--y3) 0 var(--3),
+      var(--x4) var(--y4) 0 var(--4),
+      var(--x5) var(--y5) 0 var(--5),
+      var(--x6) var(--y6) 0 var(--6),
+      var(--x7) var(--y7) 0 var(--7),
+      var(--x8) var(--y8) 0 var(--8);
+  }
+  12.5% {
+    text-shadow:
+      var(--x1) var(--y1) 0 var(--8),
+      var(--x2) var(--y2) 0 var(--1),
+      var(--x3) var(--y3) 0 var(--2),
+      var(--x4) var(--y4) 0 var(--3),
+      var(--x5) var(--y5) 0 var(--4),
+      var(--x6) var(--y6) 0 var(--5),
+      var(--x7) var(--y7) 0 var(--6),
+      var(--x8) var(--y8) 0 var(--7);
+  }
+  25% {
+    text-shadow:
+      var(--x1) var(--y1) 0 var(--7),
+      var(--x2) var(--y2) 0 var(--8),
+      var(--x3) var(--y3) 0 var(--1),
+      var(--x4) var(--y4) 0 var(--2),
+      var(--x5) var(--y5) 0 var(--3),
+      var(--x6) var(--y6) 0 var(--4),
+      var(--x7) var(--y7) 0 var(--5),
+      var(--x8) var(--y8) 0 var(--6);
+  }
+  37.5% {
+    text-shadow:
+      var(--x1) var(--y1) 0 var(--6),
+      var(--x2) var(--y2) 0 var(--7),
+      var(--x3) var(--y3) 0 var(--8),
+      var(--x4) var(--y4) 0 var(--1),
+      var(--x5) var(--y5) 0 var(--2),
+      var(--x6) var(--y6) 0 var(--3),
+      var(--x7) var(--y7) 0 var(--4),
+      var(--x8) var(--y8) 0 var(--5);
+  }
+  50% {
+    text-shadow:
+      var(--x1) var(--y1) 0 var(--5),
+      var(--x2) var(--y2) 0 var(--6),
+      var(--x3) var(--y3) 0 var(--7),
+      var(--x4) var(--y4) 0 var(--8),
+      var(--x5) var(--y5) 0 var(--1),
+      var(--x6) var(--y6) 0 var(--2),
+      var(--x7) var(--y7) 0 var(--3),
+      var(--x8) var(--y8) 0 var(--4);
+  }
+  62.5% {
+    text-shadow:
+      var(--x1) var(--y1) 0 var(--4),
+      var(--x2) var(--y2) 0 var(--5),
+      var(--x3) var(--y3) 0 var(--6),
+      var(--x4) var(--y4) 0 var(--7),
+      var(--x5) var(--y5) 0 var(--8),
+      var(--x6) var(--y6) 0 var(--1),
+      var(--x7) var(--y7) 0 var(--2),
+      var(--x8) var(--y8) 0 var(--3);
+  }
+  75% {
+    text-shadow:
+      var(--x1) var(--y1) 0 var(--3),
+      var(--x2) var(--y2) 0 var(--4),
+      var(--x3) var(--y3) 0 var(--5),
+      var(--x4) var(--y4) 0 var(--6),
+      var(--x5) var(--y5) 0 var(--7),
+      var(--x6) var(--y6) 0 var(--8),
+      var(--x7) var(--y7) 0 var(--1),
+      var(--x8) var(--y8) 0 var(--2);
+  }
+  87.5% {
+    text-shadow:
+      var(--x1) var(--y1) 0 var(--2),
+      var(--x2) var(--y2) 0 var(--3),
+      var(--x3) var(--y3) 0 var(--4),
+      var(--x4) var(--y4) 0 var(--5),
+      var(--x5) var(--y5) 0 var(--6),
+      var(--x6) var(--y6) 0 var(--7),
+      var(--x7) var(--y7) 0 var(--8),
+      var(--x8) var(--y8) 0 var(--1);
+  }
+}
+
+.rainbowuwu.js-hover {
+  cursor: grab;
+}
+
+.rainbowuwu.js-mousedown {
+  --1: #0000e5;
+  --2: #1919ff;
+  --3: #3232ff;
+  --4: #4c4cff;
+  --5: #6666ff;
+  --6: #7f7fff;
+  --7: #9999ff;
+  --8: #b2b2ff;
+  animation: rainbow 1s infinite ease;
+  cursor: -webkit-grabbing;
+  cursor:-moz-grabbing;
+}
+
