@@ -1,0 +1,16 @@
+message[0] =  "[V]";
+message[1] =  "[VA]";
+message[2] =  "[VAL]";
+message[3] =  "[VALK]";
+message[4] =  "[VALKY]";
+message[5] =  "[VALKYR]";
+message[6] =  "[VALKYRI]";
+message[7] =  "[VALKYRIE]";
+message[8] =  "[VALKYRIE]";
+message[9] =  "[VALKYRI]";
+message[10] = "[VALKYR]";
+message[11] = "[VALKY]";
+message[12] = "[VALK]";
+message[13] = "[VAL]";
+message[14] = "[VA]";
+message[15] = "[V]";
